@@ -1,0 +1,15 @@
+created: 20200220134725623
+creator: WhiteFall
+modified: 20221222082930716
+modifier: WhiteFall
+tags: $:/tags/ViewTemplate
+title: 分层导航
+type: text/vnd.tiddlywiki
+
+\import [all[tiddlers+shadows]tag[$:/tags/Macro/Toc]]
+<!-- customized class is used for buttons -->
+<style>
+.colorful-btns{color:dodgerblue;}
+</style>
+<!-- Call navigator -->
+<<multilevel-toc-navigation tag:"目录" close:"yes" class:"kk-toc-navigation colorful-btns" stateTiddler:"20210328143800">>

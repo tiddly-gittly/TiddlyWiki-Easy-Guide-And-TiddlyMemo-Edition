@@ -1,0 +1,20 @@
+created: 20220820231501581
+creator: miao
+modified: 20221222090016907
+modifier: WhiteFall
+tags: [[01. 创建自己的知识库]] ?
+title: 02. 开始使用太微
+type: text/vnd.tiddlywiki
+
+
+
+# TiddlyWiki（太微）是一份存储在本地的HTML网页文档！现在请打开它，使用最新版的edge、chrome、Safari或者Opera浏览器，点击链接 https://twpub-book.netlify.app/tiddlystow.html 。
+# 点击【空白版TiddlyWiki-5.2.3】按钮，打开tiddlywiki界面，现在为你介绍太微的基本按钮和布局。
+
+[img[开始使用太微1.png]]
+
+* 如图所示，太微的布局在大概被分成两个部分，左边是由条目组成的信息流称为故事河，右边为按钮区域组成的侧边栏。
+* 在未安装保存Wiki附加组件时，点击侧边栏的保存变更按钮保存你的更改，你的浏览器将下载一份更新后的太微。但是现在，下载动作将不会发生，因为~TiddlyStow网页本身就是用来保存太微的插件。
+
+
+点击保存按钮后tiddlywiki会提示保存到本地，﻿按提示保存为本地的html文件就可以了。﻿这个html文件可以看作word文档。﻿你的数据都存储在这里。﻿将这个网址添加到你的浏览器收藏夹，以便下次可以快速在tiddlystow中打开这个tiddlywiki文档继续编辑。﻿

@@ -1,0 +1,25 @@
+created: 20220821001658711
+creator: miao
+modified: 20221026112018774
+modifier: miao
+tags: [[03. 为知识库拓展新的功能与特性]] ?
+title: 04. TOC自动化目录插件
+
+
+在CPL搜索 Gk0Wk/page-toc ，点击安装，在控制面板 - 视觉外观 - 工具栏 - 查看工具栏 勾选Page TOC。
+
+[img[pagetoc1.png]]
+
+[img[page-toc2.png]]
+
+ToC generic：在CPL搜索ToC generic，点击安装。插件描述：将扩展的目录添加到条目的底部。
+
+[img[ToC generic.png]]
+
+Section Editor插件，在标题上对大条目进行分段，直接编辑，创建，折叠和管理部分。创建拼凑的条目，将碎片编织在一起以呈现叙事故事。
+简单的使用方法：创建一个条目；添加字段: se-type，值可以为空；开始写你的长条目不要忘记添加一些标题 使用 ! and !! 将 tiddler 分成几个部分。保存你的条目。
+演示与教程主页：https://kookma.github.io/TW-Section/
+
+[img[Section Editor.png]]
+
+安装Section Editor插件，请注意备份你的文档。

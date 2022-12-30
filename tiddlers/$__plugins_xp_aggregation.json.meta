@@ -1,0 +1,11 @@
+author: kl
+created: 20220605135117938
+dependents: $:/plugins/kookma/commander $:/plugins/kookma/shiraz $:/plugins/ihm/tidgraph $:/plugins/TWaddle/ListTree $:/plugins/danielo515/encryptTiddler
+description: Aggregation View
+list: readme settings
+modified: 20220810131842881
+name: Aggregation
+plugin-type: plugin
+title: $:/plugins/xp/aggregation
+type: application/json
+version: 0.3.0

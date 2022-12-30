@@ -1,0 +1,31 @@
+created: 20220801080836036
+creator: miao
+modified: 20220823024131707
+modifier: 马不前
+tags: $:/tags/Stylesheet
+title: 固定编辑在上方的CSS
+
+/* $:/themes/tiddlywiki/vanilla/sticky */
+<$reveal state="$:/themes/tiddlywiki/vanilla/options/stickytitles" type="match" text="yes">
+``
+
+/* 编辑器工具栏 */
+
+.tc-editor-toolbar {
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -o-sticky;
+    position: -ms-sticky;
+    position: sticky;
+    top: 39px;
+    background: ``<<colour tiddler-background>>``;
+    z-index: 500;
+}
+
+.tc-tiddler-preview {
+    overflow: unset;
+}
+
+``
+</$reveal>
+

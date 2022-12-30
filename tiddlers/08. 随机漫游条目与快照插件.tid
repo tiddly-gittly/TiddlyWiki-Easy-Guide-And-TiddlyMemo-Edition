@@ -1,0 +1,19 @@
+created: 20220821001759457
+creator: miao
+modified: 20221026112129825
+modifier: miao
+tags: [[03. 为知识库拓展新的功能与特性]] ?
+title: 08. 随机漫游条目与快照插件
+
+"""
+随机漫游条目插件
+RandomTiddlerButton：https://sonephetr2.github.io/
+random：https://tobibeer.github.io/tw5-plugins/#random
+
+说明：kiasu/RandomTiddlerButton、tobibeer/random两个插件都需要安装，安装后请刷新wiki。
+
+TiddlerSets快照插件，只需单击一下，即可创建并打开Tiddler集合
+TiddlerSets：https://tiddlersets.tiddlyhost.com/TiddlerSets
+"""
+
+快照插件很好用，可以无限套娃下去。方便做文献笔记。

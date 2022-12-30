@@ -1,0 +1,21 @@
+created: 20220822073234490
+creator: miao
+modified: 20221026111803851
+modifier: miao
+tags: [[01. 创建自己的第一条笔记]] ?
+title: 20106. WikiText表格
+
+TiddlyWiki5 使用垂线字符来格式化表格，如下所示：
+
+```
+|!单元1 |!单元2 |
+|单元3 |单元3 |
+
+```
+ 
+感叹号用于指示标题单元格。 该示例呈现为：
+
+|!单元1 |!单元2 |
+|单元3 |单元3 |
+
+更多的功能与需求例如单元合并、单元格垂直对齐、单元合并等内容不在详细介绍，需要的时候可以查阅[[tiddlywiki xp文档|https://keatonlao.github.io/tiddlywiki-xp/]]。（渐进学习）

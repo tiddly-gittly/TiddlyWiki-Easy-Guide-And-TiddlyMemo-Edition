@@ -1,0 +1,20 @@
+created: 20220820113432697
+creator: miao
+modified: 20221222084039539
+modifier: WhiteFall
+tags: 首页 ?
+title: 05. 帮助与更多
+type: text/vnd.tiddlywiki
+
+你可以在以下三个站点找到丰富的资源教程，或者在知乎或B站找到实用的使用方式。我们对新人的建议是，学无止境，够用就好。太微的上限很高，达到一个比较好的效果就可以暂时性的不用学习新的知识。等到有新的功能需求，自己再去探索未知领域。
+
+@@.wrap
+[img[太微中文教程.png]]
+[img[Tiddly舞.png]]
+[img[TiddlyWiki Xp教程.png]]
+@@
+
+
+* https://tw-cn.netlify.app/
+* https://bramchen.github.io/tw5-docs/zh-Hans/
+* https://keatonlao.github.io/tiddlywiki-xp/

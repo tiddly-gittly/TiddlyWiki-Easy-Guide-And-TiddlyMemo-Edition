@@ -1,0 +1,13 @@
+created: 20220823023904410
+creator: miao
+modified: 20221026111844852
+modifier: miao
+tags: [[04. 常用的筛选器表达式]] ?
+title: 条目总量如何显示？数字化呈现？
+
+
+```
+[all[tiddlers]!is[system]count[]]
+```
+
+说明：表达式在高级搜索里检索出来的结果为显示出来的数字，这就是条目的总数。

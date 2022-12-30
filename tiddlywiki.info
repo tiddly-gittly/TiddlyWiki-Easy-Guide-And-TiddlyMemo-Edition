@@ -1,0 +1,13 @@
+{
+    "languages": [
+        "zh-Hans"
+    ],
+    "plugins": [
+        "tiddlywiki/dynannotate",
+        "tiddlywiki/dynaview"
+    ],
+    "themes": [
+        "tiddlywiki/snowwhite",
+        "tiddlywiki/vanilla"
+    ]
+}

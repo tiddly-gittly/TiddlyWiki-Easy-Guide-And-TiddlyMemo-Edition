@@ -1,0 +1,12 @@
+created: 20220821002028998
+creator: miao
+modified: 20221026112406673
+modifier: miao
+tags: [[03. 为知识库拓展新的功能与特性]] ?
+title: 13. 将用户配置封装为插件
+
+"""
+把一些常用的设置都放到一个插件里，以插件的形式加载存储。便于携带和安装。
+使用Gatha插件，可以直接在任何Wiki里把一些条目打包成插件。它也可以管理做到一半的插件的草稿。
+Gatha：https://talk.tiddlywiki.org/t/gatha-plugin-experimental-release/2272
+"""

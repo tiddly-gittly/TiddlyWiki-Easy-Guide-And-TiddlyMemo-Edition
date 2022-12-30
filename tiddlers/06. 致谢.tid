@@ -1,0 +1,22 @@
+created: 20220823133007338
+creator: miao
+modified: 20221222084039540
+modifier: WhiteFall
+tags: ? 首页
+title: 06. 致谢
+type: text/vnd.tiddlywiki
+
+"""
+感谢CREATOR（keatonlao）的wikitext教程、suan、FSpark、TomZheng、凹夫几、林一二、葫芦12、sugarhope、少年游、机杼提供的意见和想法以及每一位太微爱好者的支持，非常感谢！
+
+TiddlyWiki（太微）相关资源：中文教程、插件源、论坛、桌面应用
+1.太微中文教程： https://tw-cn.netlify.app/
+2.社区插件源： https://tw-cpl.netlify.app
+3.TW唯一论坛： https://talk.tiddlywiki.org/
+4.桌面版应用 TiddlyGit （太记）：https://github.com/tiddly-gittly/TiddlyGit-Desktop
+5.太记介绍和教程地址： https://zhuanlan.zhihu.com/p/140473235
+6.太微思维导图（六大主题）：https://www.zhixi.com/view/70759713
+希望大家都能爱上TiddlyWiki！   QQ群：946052860
+
+关于需要了解的HTML知识（可选）：HTML标签、盒子、选择器、属性与内容、HTML结构、应用CSS到元素的概念以及常用的功能。
+"""

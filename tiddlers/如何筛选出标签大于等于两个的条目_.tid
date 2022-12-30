@@ -1,0 +1,13 @@
+created: 20220823023711726
+creator: miao
+modified: 20221026111844851
+modifier: miao
+tags: [[04. 常用的筛选器表达式]] ?
+title: 如何筛选出标签大于等于两个的条目?
+
+
+```
+[all[tiddlers]!is[system]] :filter[tags[]count[]compare:number:gteq[2]]
+```
+
+说明：[all[tiddlers]!is[system]] 限定条目为普通条目，compare:number:gteq[2] 限定标签条件大于2，可以自行修改。这个表达式可以有变形式，限定标签在一定的范围或小于固定值，请查阅compare筛选器操作符。

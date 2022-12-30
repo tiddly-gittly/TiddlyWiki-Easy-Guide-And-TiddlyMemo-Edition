@@ -1,0 +1,27 @@
+created: 20220823134454128
+creator: miao
+modified: 20221026112733479
+modifier: miao
+tags: [[01. 太微「开始」部署太微]] ?
+title: （1）桌面端保存之Timimi
+
+"""
+太微有非常多的保存方式，有一种保存方式Timimi，你可以把它们当做文档与保存文档软件的关系。Timimi仅需配置一次且使用起来几乎感受不到存在。有一个好主意是，你可以使用TiddlyStow搭配Timimi并把它们作为一种日常使用太微单文件版的方式。其中Tiddlystow作为创建太微的角色，Timimi作为保存太微文档的工具。如果担心会丢失数据可以使用Kopia定时备份。
+
+注意：TiddlyStow在支持的浏览器中可以作为保存文档的角色。TiddlyStow的写入文件功能只支持较新的Chromium base和safari浏览器，Firefox完全不支持文件回写功能。截止到2022年9月，经过试用Tiddloid、TiddlyDesktop、TidGi等。感觉TiddlyDesktop的Fifteenth Release (Prerelease 3)版本BUG比较多、TidGi的0.7.7版本软件本体好用wiki插件不好用。这些等等更新在使用。实测目前发现在桌面端最简单好用的的一套是TiddlyStow + Timimi + FSA Uploader + Kopia。
+
+创建一个文件夹存储所有的TiddlyWiki，然后使用Kopia定时备份，Timimi回写文件数据，Tiddlystow用已有的太微模板新建太微。
+
+Timimi 是一个浏览器附加组件伴随一个本机伺服程序，可让你保存和备份你的 HTML tiddlywiki 文件，于你的硬盘的任何地方。 安装完成后，你就可以保存 tiddlywiki 文文件，没有任何额外的步骤，如同原来的 Tiddlyfox 附加组件。
+
+下载地址：https://ibnishak.github.io/Timimi/
+从版本 2.1 开始，Timimi 支持以下浏览器
+•	Chrome/Chromium
+•	Firefox
+•	Opera
+•	Microsoft Edge (Chromium)
+文本来源：墨屉 — 终身知识，深入脑海 (tiddlymemo.org)
+
+"""
+
+{{Timimi安装详细流程}}

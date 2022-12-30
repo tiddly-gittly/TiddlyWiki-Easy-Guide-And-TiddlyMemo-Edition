@@ -1,0 +1,28 @@
+created: 20220821002437820
+creator: miao
+modified: 20221222090346707
+modifier: WhiteFall
+tags: [[05. 帮助与更多]] ?
+title: 02. 不同功能多样性的太微
+type: text/vnd.tiddlywiki
+
+"""
+1.官方空白版太微。
+2.TiGi（开箱即用发行版）
+3.TiddlyWiki Xp（快速体验TiddlyWiki）
+4.TiddlyMemo墨屉（渐进学习与记忆）+ 墨屉书库
+5.MTproject规划&复习模板
+
+以上这些已经在TiddlyStow里面准备好了，你可以随时使用他们开始你的TiddlyWiki之旅。
+TiddlyStow：https://twpub-book.netlify.app/tiddlystow.html
+Tiddlywiki-xp 主页：https://keatonlao.github.io/tiddlywiki-xp/
+
+墨屉关于英文原著的知识自建单词库。
+
+墨屉可以通过墨屉共享书库导入英文原著，你可以使用墨屉渐进阅读英文原著，并使用注释功能注释生词，被注释的生词会显示单词查询结果，同时会加入到渐进学习的队列，当你阅读完成后，你可以使用渐进学习功能复习注释过的生词。这样的过程可以让你不断积累自己的生词库，然后把生词在复习加阅读的理解性输入的处理下变成熟词。
+
+1.墨屉主页：https://tiddlymemo.org/manual/zh-Hans
+2.墨屉书库主页：https://twpub-book.netlify.app
+tiddlyhost，只需要注册一个账号就可以使用的在线网站。
+Tiddlyhost主页：https://tiddlyhost.com/
+"""

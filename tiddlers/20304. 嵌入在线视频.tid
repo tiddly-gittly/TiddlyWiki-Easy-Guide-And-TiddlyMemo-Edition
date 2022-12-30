@@ -1,0 +1,23 @@
+created: 20220822080811001
+creator: miao
+modified: 20221026111831132
+modifier: miao
+tags: [[03. 筛选器与双链功能]] ?
+title: 20304. 嵌入在线视频
+
+你可以嵌入一些在线视频。并且可以文本在线视频混排。有时候这非常有用，不是吗(*￣︶￣)。
+
+[img[嵌入在线视频1-png]]
+
+我们使用小破站作为例子，如图所示，在小破站的转发功能 - 点击嵌入代码，提示已经复制到剪贴板。
+正如下面的内联框架标签。你可直接新建一个条目，把复制好的直接粘贴到条目中，保存，就可以看到插入的在线视频了。
+
+
+```
+<iframe src="//player.bilibili.com/player.html?aid=554429957&bvid=BV1jv4y1P7Bb&cid=731286874&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+```
+
+[img[嵌入在线视频2-png]]
+
+你可以使用iframe标签的两个属性，height和width调整插入视频的高度和宽度。单位可忽略，默认单位为pixels（像素）。

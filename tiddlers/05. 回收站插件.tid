@@ -1,0 +1,11 @@
+created: 20220821001714535
+creator: miao
+modified: 20221026112037131
+modifier: miao
+tags: [[03. 为知识库拓展新的功能与特性]] ?
+title: 05. 回收站插件
+
+在CPL中搜索Trashbin，点击安装。
+Trashbin插件背后的概念是有一个简单的机制将已删除的tiddlers移动到Trashbin，并能够在需要时恢复它们。
+
+[img[Trashbin.png]]

@@ -1,0 +1,15 @@
+created: 20220821001856765
+creator: miao
+modified: 20221026112238280
+modifier: miao
+tags: [[03. 为知识库拓展新的功能与特性]] ?
+title: 10. 浏览器中的太微（桌面端）
+
+"""
+摘要：tiddlystow初始化创建太微文档，timimi作为在任意位置保存太微文档、FSA Uploader支持上传图片到本地文件夹。kopia定时备份。
+使用方式：创建一个文件夹存储所有的TiddlyWiki这个可以作为文档列表，你可以在这里双击打开太微，然后使用Kopia定时备份，Timimi回写文件数据，Tiddlystow用已有的太微模板新建太微。
+"""
+
+https://zhuanlan.zhihu.com/p/351606263
+
+Kopia可以看上面的介绍，或者自己去找。

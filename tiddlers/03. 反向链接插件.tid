@@ -1,0 +1,10 @@
+created: 20220821001644843
+creator: miao
+modified: 20221026112002596
+modifier: miao
+tags: [[03. 为知识库拓展新的功能与特性]] ?
+title: 03. 反向链接插件
+
+在CPL搜索 inverse-link-and-folder （反向链接插件），安装后条目底部会出现【此文件夹中的文件】以及【子条目的标签】
+
+[img[反向链接插件.png]]

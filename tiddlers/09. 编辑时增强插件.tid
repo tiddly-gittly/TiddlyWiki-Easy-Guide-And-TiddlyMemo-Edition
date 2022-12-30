@@ -1,0 +1,28 @@
+created: 20220821001824290
+creator: miao
+difficulty: 5
+due: 20221027141205236
+grade: -1
+history: []
+interval: 0
+lapses: 0
+modified: 20221029063005984
+modifier: Miao
+reps: 1
+retrievability: 1
+review: 20221025141205236
+stability: 2
+tags: [[03. 为知识库拓展新的功能与特性]] ?
+title: 09. 编辑时增强插件
+type: text/vnd.tiddlywiki
+
+"""
+复制标题：oeyoews/copy-title，安装后在页面工具栏可以看到。
+高亮文本，xp/mark-button，安装后，在编辑条目时的编辑工具栏图标显示为一个马克笔。
+左置开启标签页，xp/leftopentab，开启标签页将在浏览器左边单独显示。
+初学者工具包，kookma/shiraz，它有一个护眼模式的功能。
+快捷菜单栏，tiddlywiki/menubar或者xp/quickbar，它可以适配移动端，使移动端更容易使用，在桌面端也是非常好的实用工具，建议安装。
+有一个html convert插件可以一键去格式，对于导入的文件格式化很方便。
+
+以上插件可以在CPL找到并安装，找不到的可以在TiddlyWiki xp找到。
+"""

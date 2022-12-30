@@ -1,0 +1,10 @@
+created: 20220821001745771
+creator: miao
+modified: 20221026112117056
+modifier: miao
+tags: [[03. 为知识库拓展新的功能与特性]] ?
+title: 07. Markdown插件
+
+在官方库搜索Markdown插件，点击安装。然后再CPL搜索Markdown-Export，点击安装。注意 ，这两个插件是都要装的，不然导入的markdown文件无法正常显示。
+
+可以把新建Markdown的按钮放在侧边区域的页面控制栏，设置可以在控制台 - 视觉外观 - 工具栏 - 页面工具栏启用【添加Markdown条目】
