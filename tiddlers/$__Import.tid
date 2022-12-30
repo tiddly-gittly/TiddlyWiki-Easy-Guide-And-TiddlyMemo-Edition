@@ -4,17 +4,4 @@ type: text/vnd.tiddlywiki
 
 下列条目已被导入：
 
-# [[$:/plugins/Gk0Wk/notionpage-covericon]]
-# [[$:/plugins/linonetwo/inverse-link-and-folder]]
-# [[$:/plugins/kookma/commander]]
-# [[$:/plugins/felixhayashi/hotzone]]
-# [[$:/plugins/tiddlywiki/dynaview]]
-# [[$:/plugins/tiddlywiki/dynannotate]]
-# [[$:/plugins/danielo/context]]
-# [[$:/plugins/kookma/shiraz]]
-# [[$:/plugins/flibbles/relink-titles]]
-# [[$:/plugins/flibbles/relink-markdown]]
-# [[$:/plugins/kookma/toc]]
-# [[$:/plugins/flibbles/relink]]
-# [[$:/plugins/xp/aggregation]]
-# [[$:/plugins/Gk0Wk/echarts]]
+# [[contents/hierarchical-navigation]]

@@ -1,8 +1,8 @@
 created: 20220824233047040
 creator: miao
-modified: 20220825011432204
-modifier: miao
-tags: 新增内容
+modified: 20221230091249920
+modifier: WhiteFall
+tags: 新增内容 ?
 title: Wiki书写文本的解析器模式
 
 为了显示条目（通常是 `text` 字段，即条目内容），Wiki文本解析器有三种模式，对条目内容（ `text` 字段）中的wiki文本符号，应用维基文本规则读取和解释内容。

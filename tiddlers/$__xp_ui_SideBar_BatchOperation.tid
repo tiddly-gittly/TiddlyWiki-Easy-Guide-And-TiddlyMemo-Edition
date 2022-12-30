@@ -8,7 +8,6 @@ modified: 20221027041458684
 modifier: miao
 tags: 
 title: $:/xp/ui/SideBar/BatchOperation
-type: text/vnd.tiddlywiki
 
 <$macrocall
   $name="tabs"

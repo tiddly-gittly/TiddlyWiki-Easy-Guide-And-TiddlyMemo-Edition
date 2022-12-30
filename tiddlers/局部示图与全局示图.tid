@@ -1,8 +1,8 @@
 created: 20220823114634685
 creator: miao
-modified: 20221026112101346
-modifier: miao
-tags: [[06. 关系图谱或图数据结构]]
+modified: 20221230091249917
+modifier: WhiteFall
+tags: [[06. 关系图谱或图数据结构]] ?
 title: 局部示图与全局示图
 
 与当前条目相关的节点图谱——TheBrian（可视化），我们仅介绍Echart的局部视图与全局视图这种与条目相关的可视化视图方式。
