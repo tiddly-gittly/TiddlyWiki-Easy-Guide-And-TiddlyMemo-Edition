@@ -1,9 +1,10 @@
 created: 20220823134454128
 creator: miao
-modified: 20221230091249908
+modified: 20221230095806735
 modifier: WhiteFall
 tags: [[01. 太微「开始」部署太微]] ?
-title: （1）桌面端保存之Timimi
+title: 050102. 桌面端保存之Timimi
+type: text/vnd.tiddlywiki
 
 """
 太微有非常多的保存方式，有一种保存方式Timimi，你可以把它们当做文档与保存文档软件的关系。Timimi仅需配置一次且使用起来几乎感受不到存在。有一个好主意是，你可以使用TiddlyStow搭配Timimi并把它们作为一种日常使用太微单文件版的方式。其中Tiddlystow作为创建太微的角色，Timimi作为保存太微文档的工具。如果担心会丢失数据可以使用Kopia定时备份。

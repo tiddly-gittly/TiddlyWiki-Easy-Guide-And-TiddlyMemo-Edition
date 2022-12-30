@@ -1,9 +1,10 @@
 created: 20220822080611224
 creator: miao
-modified: 20221230091249916
+modified: 20221230095503588
 modifier: WhiteFall
 tags: [[03. 筛选器与双链功能]] ?
-title: 20303. 条目的批量操作
+title: 020303. 条目的批量操作
+type: text/vnd.tiddlywiki
 
 1.	筛选出含有关键字的所有条目：[!is[system]search[关键字]] 
 

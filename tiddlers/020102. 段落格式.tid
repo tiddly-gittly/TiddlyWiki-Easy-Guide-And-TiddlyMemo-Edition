@@ -1,9 +1,10 @@
 created: 20220820234928649
 creator: miao
-modified: 20221230091249914
+modified: 20221230095340663
 modifier: WhiteFall
 tags: [[01. 创建自己的第一条笔记]] ?
-title: 20102. 段落格式
+title: 020102. 段落格式
+type: text/vnd.tiddlywiki
 
 要在 TiddlyWiki 中标记段落的末尾，您需要输入 `enter` 两次以创建空行。	
 无论两段之间的空行有多少，默认解释为两个段落，可以使用使用 <br> 强制换行
