@@ -1,0 +1,42 @@
+name: 将Tiddlywiki部署到Github页面
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3.5.1
+        with:
+          node-version: '16'
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: |
+            **/node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/package.json') }}
+          
+      - name: 安装依赖
+        run: npm install
+      - name: 运行构建
+        run: npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1.0.7
+        with:
+          # Upload entire repository
+          path: ./public-dist
+      - name: 部署到GitHub页面
+        id: deployment
+        uses: actions/deploy-pages@v1.2.3
