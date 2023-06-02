@@ -1,5 +1,5 @@
 author: Mohammad Rahmani
-core-version: >=5.1.21
+core-version: >=5.2.5
 dependents: 
 description: Table of contents and navigation builder
 list: readme license history
@@ -8,4 +8,4 @@ plugin-type: plugin
 source: https://github.com/kookma/TOC
 title: $:/plugins/kookma/toc
 type: application/json
-version: 1.4.1
+version: 1.5.0
