@@ -1,10 +1,12 @@
-#align(center)[#image("./media/image1.png", width: 0.525in, height: 0.6in)#text(24pt)[TiddlyWiki（太微）简易指南]]
+#set text(lang: "zh")
 
-#quote[此文件所在的Github仓库：#link("https://github.com/tiddly-gittly/TiddlyWiki-Easy-Guide-And-TiddlyMemo-Edition")[tiddly-gittly/TiddlyWiki-Easy-Guide-And-TiddlyMemo-Edition]]
+#align(center + horizon)[#box[#image("./media/image1.png", width: 0.525in, height: 0.6in)#text(24pt)[TiddlyWiki（太微）简易指南]]]
+
+#align(bottom)[此文件所在的Github仓库：#link("https://github.com/tiddly-gittly/TiddlyWiki-Easy-Guide-And-TiddlyMemo-Edition")[tiddly-gittly/TiddlyWiki-Easy-Guide-And-TiddlyMemo-Edition]]
 
 #pagebreak()
 
-= 前言
+#align(center)[= 前言]
 
 太微比普通的笔记软件拥有更加强大的灵活性（这种灵活性是需要知识来支撑）。太微就像《果宝特攻》里面的机甲，所有的功能（包括更改外观）都可以通过安装、卸载配置模块（插件）实现。太微同时也是文档与软件一体化工具。普通软件修改外观等于几乎打碎整个UI重做。在太微中最简的使用方式是仅在桌面端通过edge打开TiddlyStow页面，选一个太微模板就可以使用记录笔记或日志，数据会保存在本地。
 
@@ -23,7 +25,6 @@
 #link("https://tiddlymemo.org/manual/zh-Hans")\
 #pagebreak()
 
-#set text(lang: "zh")
 #outline(indent: 2em, depth: 3)
 #pagebreak()
 
