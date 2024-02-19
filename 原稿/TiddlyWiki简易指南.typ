@@ -1,12 +1,11 @@
-#set text(lang: "zh")
+#set text(lang: "zh",cjk-latin-spacing: auto)
 
-#align(center + horizon)[#box[#image("./media/image1.png", width: 0.525in, height: 0.6in)#text(24pt)[TiddlyWiki（太微）简易指南]]]
-
+#align(center + horizon)[#box[#image("./media/image1.png", width: 12%, height: 8%)#text(24pt)[TiddlyWiki（太微）简易指南]]]\
 #align(bottom)[此文件所在的Github仓库：#link("https://github.com/tiddly-gittly/TiddlyWiki-Easy-Guide-And-TiddlyMemo-Edition")[tiddly-gittly/TiddlyWiki-Easy-Guide-And-TiddlyMemo-Edition]]
 
 #pagebreak()
 
-#align(center)[= 前言]
+#align(center)[= 前言]\
 
 太微比普通的笔记软件拥有更加强大的灵活性（这种灵活性是需要知识来支撑）。太微就像《果宝特攻》里面的机甲，所有的功能（包括更改外观）都可以通过安装、卸载配置模块（插件）实现。太微同时也是文档与软件一体化工具。普通软件修改外观等于几乎打碎整个UI重做。在太微中最简的使用方式是仅在桌面端通过edge打开TiddlyStow页面，选一个太微模板就可以使用记录笔记或日志，数据会保存在本地。
 
@@ -18,14 +17,14 @@
 
 想看看比较惊艳的太微实例嘛？点击链接查看在线部署的太微：
 
-#link("https://oeyoew.fun/")\
-#link("https://pimgeek.com/notes/")[🤓🌱 学习者的数字花园 — 记录我的学习与思考 (pimgeek.com)]\
-#link("https://tritarget.org/")\
-#link("https://xememex.com/ethicsatwes/")\
-#link("https://tiddlymemo.org/manual/zh-Hans")\
+- #link("https://oeyoew.fun/")\
+- #link("https://pimgeek.com/notes/")[🤓🌱 学习者的数字花园 — 记录我的学习与思考 (pimgeek.com)]\
+- #link("https://tritarget.org/")\
+- #link("https://xememex.com/ethicsatwes/")\
+- #link("https://tiddlymemo.org/manual/zh-Hans")\
 #pagebreak()
 
-#outline(indent: 2em, depth: 3)
+#align(center)[#outline(indent: 2em, depth: 3)] 
 #pagebreak()
 
 = 一、创建自己的知识库
@@ -44,7 +43,7 @@ TiddlyWiki 是一个宝藏软件，但可惜的是有些人没有体会到这一
 
 准备好了吗？那让我们开始吧！
 
-#image("./media/image2.png", width: 6.768055555555556in, height: 4.346527777777778in)
+#image("./media/image2.png")
 
 == （二）下载与安装
 
@@ -52,7 +51,7 @@ TiddlyWiki（太微）是一份存储在本地的HTML网页文档！同时也是
 
 TidGi下载链接：#link("https://github.com/tiddly-gittly/TidGi-Desktop/releases")[Releases · tiddly-gittly/TidGi-Desktop (github.com)]
 
-#image("./media/image3.png", width: 6.768055555555556in, height: 3.8743055555555554in)
+#image("./media/image3.png")
 
 如图所示，太微的布局在大概被分成两个部分，左边是由条目组成的信息流称为故事河，右边为按钮（页面工具栏）和侧边栏组成的工具区域。
 
@@ -108,14 +107,14 @@ JSON文件是太微中常见的数据存储格式文件，一般都是使用它�
 
 在TidGi中，你可以通过拖动侧边栏的左侧边缘的一个可拖动的边框，当鼠标移动到左侧边缘时会看到这个边框。拖动这个边框可以改变侧边栏的宽度，拖动到靠近窗口右侧边缘时就会自动收起侧边栏。
 
-如果你使用空白版的太微，而你觉得空白版的太微页面的左右比例看起来太别扭，你可以通过以下步骤调整页面左右的比例。如图所示，点击开启控制台按钮。在控制面板-\>视觉外观-\>主题调整-\>侧边栏布局。侧边栏布局改为：#strong[浮动故事固定侧边栏。]
+如果你使用空白版的太微，而你觉得空白版的太微页面的左右比例看起来太别扭，你可以通过以下步骤调整页面左右的比例。如图所示，点击开启控制台按钮。在控制面板->视觉外观->主题调整->侧边栏布局。侧边栏布局改为：#strong[浮动故事固定侧边栏。]
 
 图表 1关于侧边栏选项卡的知识。
 
-#image("./media/image4.png", width: 6.768055555555556in, height: 4.219414916885389in)
+#image("./media/image4.png")
 
 你可以打开视觉外观 - 主题调整 - 选项 -
-设置【置顶标题】。使条目名称\"黏着\"于浏览器窗口的顶端。
+设置【置顶标题】。使条目名称"黏着"于浏览器窗口的顶端。
 
 这对修改编辑时非常有用，不然如果写的文章非常长的时候，你就要经常性的手动滚动到条目顶端的标题位置点击保存或者取消按钮。
 
@@ -131,12 +130,12 @@ JSON文件是太微中常见的数据存储格式文件，一般都是使用它�
 White】布景主题中，你可以设置“固定侧边栏，浮动故事”缩小侧边栏的大小，以让故事所占的区域变大一些。而Sidebar
 Resizer插件则可以让你通过拖拽调整侧边栏的大小。
 
-#image("./media/image5.png", width: 6.768055555555556in, height: 3.256424978127734in)
+#image("./media/image5.png")
 
 你可以在控制面板 - 视觉外观
 -【工具栏】看到每一个图标的具体名称和作用。也可以设置它是否在对应的位置显示。工具栏有四个位置，分别是编辑工具栏、编辑器工具栏、页面工具栏、查看工具栏。
 
-#image("./media/image6.png", width: 6.768055555555556in, height: 2.9535312773403324in)
+#image("./media/image6.png")
 
 - 编辑工具栏在条目编辑状态下右上角，分别对应删除、取消和确定。
 
@@ -154,11 +153,11 @@ Resizer插件则可以让你通过拖拽调整侧边栏的大小。
 -相关的插件条目中的config或setting选项卡，或者在控制面板的 设置 -
 插件名选项卡中配置插件。也有部分会放置在控制面板的视觉外观选项卡，工具栏组。
 
-#image("./media/image7.png", width: 6.767854330708661in, height: 2.0706200787401574in)
+#image("./media/image7.png")
 
 在控制面板的信息选项卡，你可以查看条目的总数，【一般条目数量】就是你写的笔记条目的数量，也称为标准或者普通条目。其它则是系统条目。在这里，你也可以设置TIddlyWiki的一般性信息，比如标题、副标题、、编辑者署名、默认打开的条目等信息。
 
-#image("./media/image8.png", width: 6.767969160104987in, height: 2.6805938320209974in)
+#image("./media/image8.png")
 
 在信息选项卡的高级组，你可以查看已加载的样式表、条目栏位、级联等信息。要注意的是现在不要太过于关注它们，仅需要了解即可，等到需要使用的时候在学习也不迟。
 
@@ -170,16 +169,16 @@ Resizer插件则可以让你通过拖拽调整侧边栏的大小。
 
 - Zoomin：缩放视图模式：这个模式只能看到一个条目，往下翻没有更多条目
 
-详细链接： https:\/\/tw-cn.netlify.app/\#查看模式
+详细链接： #link("https://tw-cn.netlify.app/#查看模式")
 
-#image("./media/image9.png", width: 6.768055555555556in, height: 2.693657042869641in)
+#image("./media/image9.png")
 
 === （4）配置新的主题配色
 
 点击页面工具栏的小齿轮按钮（控制台）打开太微控制面板，在视觉外观选项卡 -
 调色板组选择你喜欢的主题配色。最后点击页面工具栏的保存更改按钮保存你的太微。
 
-#image("./media/image10.png", width: 6.768055555555556in, height: 4.620791776027996in)
+#image("./media/image10.png")
 
 可选的知识：调色板的主题配色是一个系统条目，条目名通常以\$:/palettes/\<name\>命名，几乎所有太微可见部件的配色都可以通过创建或修改此类条目生效。
 
@@ -187,7 +186,7 @@ Resizer插件则可以让你通过拖拽调整侧边栏的大小。
 
 5.1如何安装CPL插件库？
 
-打开链接：#link("https://tw-cpl.netlify.app/#Welcome")，打开欢迎页面，拖动【太微中文社区插件源(大陆加速版) 】链接到你的太微，点击导入即可。
+打开链接：#link("https://tw-cpl.netlify.app/#Welcome")，打开欢迎页面，拖动【太微中文社区插件源(大陆加速版) 】链接到你的太微，点击导入即可。
 
 5.2如何安装CPL中的插件？
 
@@ -195,11 +194,11 @@ Resizer插件则可以让你通过拖拽调整侧边栏的大小。
 在弹出的对话框中选择【太微中文社区插件源】 - 点击开启插件程式库按钮
 ，这这里你可以选择更新插件、安装插件及布景主题。
 
-#image("./media/image11.png", width: 6.768055555555556in, height: 3.157017716535433in)
+#image("./media/image11.png")
 
 #strong[重要：]#underline[插件要尤为注意插件之间的依赖关系，缺少依赖将会导致功能性错误或者其它的不可知问题。安装插件之前请谨慎备份自己的TiddlyWiki。]
 
-#image("./media/image12.png", width: 6.768055555555556in, height: 4.734058398950131in)
+#image("./media/image12.png")
 
 太微的控制面板，是太微配置所有设置的窗口页面。一般的个性化配置都可以在控制面板找到，极少部分会在有相关功能的特定的条目中找到。
 
@@ -221,7 +220,7 @@ Resizer插件则可以让你通过拖拽调整侧边栏的大小。
 + TiddlyWiki Grok
 ]
 
-TiddlyStow：https:\/\/twpub-book.netlify.app/tiddlystow.html
+TiddlyStow：https://twpub-book.netlify.app/tiddlystow.html
 
 TiddlyStow（Github）：#link("https://btheado.github.io/tiddlystow/TiddlyStow-ZH.html")
 
@@ -235,13 +234,13 @@ Tiddlywiki-xp 主页：#link("https://keatonlao.github.io/tiddlywiki-xp/")
 
 tiddlyhost，只需要注册一个账号就可以使用的在线网站。
 
-Tiddlyhost主页：https:\/\/tiddlyhost.com/
+Tiddlyhost主页：https://tiddlyhost.com/
 
 = 二、开始使用知识库
 
 == （一）创建第一个条目笔记
 
-#image("./media/image13.png", width: 6.768055555555556in, height: 3.2645833333333334in)
+#image("./media/image13.png")
 
 在太微中，一个条目相当于一个文件，点击页面工具栏的新建条目按钮（十字形）创建一个新的条目。
 
@@ -258,11 +257,11 @@ S、从条目标题跳转到条目内容快捷键：TAB]
 
 让我们开始书写属于自己的第一篇笔记吧。不过，首先我们要知道两条基本的WikiText语法——标题与段落。这非常简单。
 
-为了快速使用，我们仅仅挑选了常用且简单的功能，更详细的资料情查看文档：https:\/\/keatonlao.github.io/tiddlywiki-xp/\#WikiText
+为了快速使用，我们仅仅挑选了常用且简单的功能，更详细的资料情查看文档：https://keatonlao.github.io/tiddlywiki-xp/\#WikiText
 
 === （1）指定标题
 
-标题由一个或多个前导 ! 字符指定
+标题由一个或多个前导 ! 字符指定
 
 #align(center)[#table(
   columns: 1,
@@ -296,7 +295,7 @@ S、从条目标题跳转到条目内容快捷键：TAB]
 
 === （2）段落格式
 
-要在 #link("https://keatonlao.github.io/tiddlywiki-xp/#TiddlyWiki")[TiddlyWiki] 中标记段落的末尾，您需要输入 enter 两次以创建空行。
+要在 #link("https://keatonlao.github.io/tiddlywiki-xp/#TiddlyWiki")[TiddlyWiki] 中标记段落的末尾，您需要输入 enter 两次以创建空行。
 
 无论两段之间的空行有多少，默认解释为两个段落，可以使用使用 \<br\>
 强制换行
@@ -333,22 +332,22 @@ S、从条目标题跳转到条目内容快捷键：TAB]
 )
 ]
 
-现在，你可以自由的书写自己的笔记了，是不是特别简单！不过，如果需要处理像诗歌一样的文本时，这样的按 enter不断换行也太过于麻烦了，为了解决这个问题，我们将为你介绍新的Wikitext语法——硬换行。
+现在，你可以自由的书写自己的笔记了，是不是特别简单！不过，如果需要处理像诗歌一样的文本时，这样的按 enter不断换行也太过于麻烦了，为了解决这个问题，我们将为你介绍新的Wikitext语法——硬换行。
 
 === （3）硬换行内容块
 
-处理诗歌等材料时，可以将内容块标记为包含硬换行，内容块使用三个英文状态下的双引号\"\"\"开头和\"\"\"结尾
+处理诗歌等材料时，可以将内容块标记为包含硬换行，内容块使用三个英文状态下的双引号"""开头和"""结尾
 
 #align(center)[#table(
   columns: 1,
   align: (col, row) => (auto,).at(col),
   inset: 6pt,
   [输入此条目的内容],
-  [\"\"\"
+  ["""
 
-  \'\'沁园春·雪\'\'
+  ''沁园春·雪''
 
-  \[现代\] 毛泽东
+  [现代] 毛泽东
 
   北国风光，千里冰封，万里雪飘。
 
@@ -372,11 +371,7 @@ S、从条目标题跳转到条目内容快捷键：TAB]
 
   俱往矣，数风流人物，还看今朝。
 
-  \"\"\"
-
-  ],
-)
-]
+  """])]
 
 #align(center)[#table(
   columns: 1,
@@ -414,7 +409,7 @@ S、从条目标题跳转到条目内容快捷键：TAB]
 ]
 
 你会发现，【沁园春·雪】
-这个标题被加粗了，这是因为在WikiText语法中\'\'两个英文单引号\'\' 用于 #strong[粗体文本] （#strong[B]）
+这个标题被加粗了，这是因为在WikiText语法中''两个英文单引号'' 用于 #strong[粗体文本] （#strong[B]）
 
 你已经掌握了标题、段落、硬换行以及加粗的WikiText语法，这真的太酷了。请试着写一些东西看看吧。下面我们将会为您介绍与加粗相关的文字的格式化WikiText语法：斜体、下划线、上标、下标以及删除线。
 
@@ -427,9 +422,9 @@ S、从条目标题跳转到条目内容快捷键：TAB]
   align: (col, row) => (auto,).at(col),
   inset: 6pt,
   [输入此条目的内容],
-  [\/\/北国\/\/风光，\_\_千里冰封\_\_，万里雪飘。
+  [//北国//风光，\_\_千里冰封\_\_，万里雪飘。
 
-  望长城\'\'内外\'\'，惟余莽莽；
+  望长城''内外''，惟余莽莽；
 
   大河^^上标^^上下，顿失滔滔。
 
@@ -462,21 +457,21 @@ S、从条目标题跳转到条目内容快捷键：TAB]
 
 在编辑模式下，我们可以使用编辑工具栏的按钮设置我们需要的格式，也可以使用快捷键设置（控制台按钮-快捷键）
 
-#image("./media/image14.png", width: 6.814773622047244in, height: 2.028786089238845in)
+#image("./media/image14.png")
 
 #align(center)[#table(
   columns: 1,
   align: (col, row) => (auto,).at(col),
   inset: 6pt,
-  [#strong[斜体]，\/\/两个斜杠\/\/ 用于 #emph[斜体文本] (
+  [#strong[斜体]，//两个斜杠// 用于 #emph[斜体文本] (
   #emph[#strong[I]] )
 
-  条目内容：\/\/斜体文本\/\/
+  条目内容：//斜体文本//
 
   显示效果：#emph[斜体文本]
 
   ],
-  [#strong[下划线]，\_\_两个英文下划线\_\_ 用于 #underline[下划线文本] (
+  [#strong[下划线]，\_\_两个英文下划线\_\_ 用于 #underline[下划线文本] (
   #strong[#underline[U]] )
 
   条目内容：\_\_下划线文本\_\_
@@ -492,7 +487,7 @@ S、从条目标题跳转到条目内容快捷键：TAB]
   显示效果：#strong[#super[上标]] 文本
 
   ],
-  [#strong[下标]：,,两个英文逗号,, 用于 #sub[下标] 文本 (
+  [#strong[下标]：,,两个英文逗号,, 用于 #sub[下标] 文本 (
   #strong[X#sub[2 ]])
 
   条目内容：,,下标,,文本
@@ -500,12 +495,12 @@ S、从条目标题跳转到条目内容快捷键：TAB]
   显示效果：#sub[下标]文本
 
   ],
-  [#strong[删除线]：~~两个波浪线~~ 用于 #strike[带删除线] 文本 (
+  [#strong[删除线]：~~两个波浪线~~ 用于 #strike[带删除线] 文本 (
   #strike[#strong[S]] )
 
   条目内容：~~带删除线~~ 文本
 
-  显示效果：#strike[带删除线] 文本
+  显示效果：#strike[带删除线] 文本
 
   ],
   [#strong[突显文本：]\@\@突显文本\@\@ 用于创建突显文本
@@ -530,7 +525,7 @@ S、从条目标题跳转到条目内容快捷键：TAB]
 
 项目列表分为#strong[有序列表]与#strong[无序列表。]
 
-#strong[无序列表]：使用 \* 字符创建无序列表。
+#strong[无序列表]：使用 \* 字符创建无序列表。
 
 - 第一个列表项
 
@@ -540,7 +535,7 @@ S、从条目标题跳转到条目内容快捷键：TAB]
 
 - 第三个列表项
 
-#strong[有序列表]：使用 \# 创建有序列表。
+#strong[有序列表]：使用 \# 创建有序列表。
 
 + 第一个列表项
 
@@ -550,20 +545,20 @@ S、从条目标题跳转到条目内容快捷键：TAB]
 
 #strong[引述块]的简单介绍
 
-#image("./media/image15.png", width: 6.813093832020997in, height: 0.9167465004374453in)
+#image("./media/image15.png")
 
 您也可以像这样#strong[嵌套引述]
 
-#image("./media/image16.png", width: 6.821861329833771in, height: 1.1006047681539808in)
+#image("./media/image16.png")
 
 ==== 2）水平分隔线、破折号、数学公式、代码块
 
-#strong[破折号：]您可以使用两个 hyphen（连字符）-- 创建一个
-n-dash（连接号），并使用三连字符 --- 创建一个 m-dash（破折号）。 例如：
+#strong[破折号：]您可以使用两个 hyphen（连字符）-- 创建一个
+n-dash（连接号），并使用三连字符 --- 创建一个 m-dash（破折号）。 例如：
 
-– 这是一个例子
+– 这是一个例子
 
-— 这也是
+— 这也是
 
 #strong[水平分隔线：]在一行上用三个或更多破折号，您可以划一条水平线。
 
@@ -595,7 +590,7 @@ color，每个后跟 ; 分号，可以在开头的 \@\@
 
 === （6）WikiText表格
 
-#link("https://keatonlao.github.io/tiddlywiki-xp/#TiddlyWiki5")[TiddlyWiki5] 使用垂线字符来格式化表格，如下所示：
+#link("https://keatonlao.github.io/tiddlywiki-xp/#TiddlyWiki5")[TiddlyWiki5] 使用垂线字符来格式化表格，如下所示：
 
 感叹号用于指示标题单元格。 该示例呈现为：
 
@@ -626,15 +621,15 @@ WikiText即TiddlyWiki书写文本。书写文本与显示文本又名书写风�
 
 === （8）WikiText的解析器模式
 
-为了显示条目（通常是条目内容 ，即text 字段），Wiki文本解析器有三种模式，对条目内容（ text 字段）中的wiki文本符号，应用维基文本规则读取和解释内容。
+为了显示条目（通常是条目内容 ，即text 字段），Wiki文本解析器有三种模式，对条目内容（ text 字段）中的wiki文本符号，应用维基文本规则读取和解释内容。
 
 比如【#strong[加粗]、#underline[下划线]】（文本格式）就是内联模式，书写的时候对应使用内联模式的书写规则。【标题】属于区块模式，书写时应该对应使用区块模式的书写规则。只有这样书写的文本才能被正确的显示，你可以理解为#strong[书写规则]。
 
-- #strong[编译指示模式] - 解析器将仅识别编译指示模式维基文本符号
+- #strong[编译指示模式] - 解析器将仅识别编译指示模式维基文本符号
 
-- #strong[区块模式] - 解析器将仅识别区块模式维基文本符号
+- #strong[区块模式] - 解析器将仅识别区块模式维基文本符号
 
-- #strong[内联模式] - 解析器将仅识别内联模式维基文本
+- #strong[内联模式] - 解析器将仅识别内联模式维基文本
 
 此条目仅做简要介绍，更详细的描述请查看#link("file:///D:\\\\Dropbox\\\\10-TODO\\\\TiddlyWiki\\\\%E5%A2%A8%E5%B1%89TiddlyWiki%E7%AE%80%E6%98%93%E6%8C%87%E5%8D%97.html#TiddlyWiki")[TiddlyWiki]舞中文文档：#link("https://bramchen.github.io/tw5-docs/zh-Hans/#WikiText%20Parser%20Modes")
 
@@ -655,12 +650,12 @@ WikiText即TiddlyWiki书写文本。书写文本与显示文本又名书写风�
 + 属于内联解析器模式的维基文本符号：文本格式、破折号、图片、链接、嵌入、宏调用、小工具、样式及
   CSS 类别、HTML、变量
 
-维基文本符号例子说明：文本格式中的加粗，文本符号 \'\' 两个英文单引号\'
-\'\'
+维基文本符号例子说明：文本格式中的加粗，文本符号 '' 两个英文单引号'
+''
 
 编译指示模式（不常用）
 
-+ 编译指示是 #link("file:///D:\\\\Dropbox\\\\10-TODO\\\\TiddlyWiki\\\\%E5%A2%A8%E5%B1%89TiddlyWiki%E7%AE%80%E6%98%93%E6%8C%87%E5%8D%97.html#WikiText")[#emph[WikiText]] 的一个特殊的组件，提供操控剩余的文本解析的方式。通常用于宏的定义。
++ 编译指示是 #link("file:///D:\\\\Dropbox\\\\10-TODO\\\\TiddlyWiki\\\\%E5%A2%A8%E5%B1%89TiddlyWiki%E7%AE%80%E6%98%93%E6%8C%87%E5%8D%97.html#WikiText")[#emph[WikiText]] 的一个特殊的组件，提供操控剩余的文本解析的方式。通常用于宏的定义。
 
 + 编译指示位于行首为
   \\，他们只能出现于内文的起始处，编译指示之间允许空白的行。如果编译指示出现在内文的主体，会被当作是普通的文本一样处理。
@@ -670,7 +665,7 @@ WikiText即TiddlyWiki书写文本。书写文本与显示文本又名书写风�
 
 === （9）删除单个条目
 
-#image("./media/image17.png", width: 6.768055555555556in, height: 4.061805555555556in)
+#image("./media/image17.png")
 
 扩展的知识：更多按钮下，我们常用的功能分别是：信息、新建子条目、导出、相对链接等功能。
 
@@ -680,7 +675,7 @@ TiddlyWiki中文件目录的层级结构是使用的Locator插件实现的。在
 
 TidGi的文件目录层级结构如图所示——显示在侧边栏的文件目录选项卡。
 
-#image("./media/image18.png", width: 6.768055555555556in, height: 3.9590277777777776in)
+#image("./media/image18.png")
 
 - 如何使用如此简单的文件目录层级结构呢？
 
@@ -700,7 +695,7 @@ TidGi预安装了bimlas/kin-filterr插件，你可以在
 
 表达式说明：这将会连同【条目文件夹】以及条目名称下的所有子条目全部筛选出来。
 
-#image("./media/image19.jpg", width: 6.768055555555556in, height: 3.0245024059492565in)
+#image("./media/image19.jpg")
 
 == （三）筛选器与双链功能
 
@@ -719,13 +714,13 @@ TidGi预安装了bimlas/kin-filterr插件，你可以在
 
 您也可以用一个#link("https://keatonlao.github.io/tiddlywiki-xp/#TextReference")[TextReference]（文本引用）代替条目标题：
 
-+ {{MyTiddler!!field}} 嵌入指定条目的指定字段
++ {{MyTiddler!!field}} 嵌入指定条目的指定字段
 
-+ {{!!field}} 嵌入当前条目的指定字段
++ {{!!field}} 嵌入当前条目的指定字段
 
-+ {{MyTiddler\#\#index}} 嵌入指定#link("https://keatonlao.github.io/tiddlywiki-xp/#DataTiddlers")[数据条目]的指定索引属性
++ {{MyTiddler\#\#index}} 嵌入指定#link("https://keatonlao.github.io/tiddlywiki-xp/#DataTiddlers")[数据条目]的指定索引属性
 
-+ {{\#\#index}} 嵌入当前#link("https://keatonlao.github.io/tiddlywiki-xp/#DataTiddlers")[数据条目]的指定索引属性
++ {{\#\#index}} 嵌入当前#link("https://keatonlao.github.io/tiddlywiki-xp/#DataTiddlers")[数据条目]的指定索引属性
 
 #strong[1.1.2通过筛选后的嵌入]
 
@@ -748,18 +743,18 @@ TidGi预安装了bimlas/kin-filterr插件，你可以在
 
 对于符合#link("https://keatonlao.github.io/tiddlywiki-xp/#CamelCase")[CamelCase]规则（大写字母出现在单词中部）的条目标题，只需键入标题不用带双方括号即可自动创建链接。
 
-你可以通过在前面加 ~来阻止被自动识别为驼峰式链接。 例如：
+你可以通过在前面加 ~来阻止被自动识别为驼峰式链接。 例如：
 
-- HelloThere 不是一个链接
+- HelloThere 不是一个链接
 
-- http:\/\/google.com/ 是一个链接
+- http://google.com/ 是一个链接
 
 #strong[ \
 ]
 
 #strong[1.2.2外部链接]
 
-要链接到外部资源 ，如网站或文件，请键入其#emph[完整] #link("https://en.wikipedia.org/wiki/URL")[URL]，包括URI方案，如协议（例如http:\/\/、file:\/\/）或mailto：
+要链接到外部资源 ，如网站或文件，请键入其#emph[完整] #link("https://en.wikipedia.org/wiki/URL")[URL]，包括URI方案，如协议（例如http://、file://）或mailto：
 
 为了使此语法正常工作，URL必须被识别为URL。 否则，它将被视为条目标题。
 因此，如果你要想使用相对路径链接到可定位的资源，请使用扩展语法：
@@ -770,9 +765,9 @@ TidGi预安装了bimlas/kin-filterr插件，你可以在
 
 嵌入是#strong[{{两个花括号}}]，链接是#strong[\[\[两个方括号\]\]]、宏是#strong[\<\<两个尖括号\>\>]、筛选器#strong[\[操作符\[参数\]
 step
-step\]]、小部件是#strong[\<\$xxx\>]标记的名称前包含一个 \$ 符号的HTML标签#strong[\</xxx\>]
+step\]]、小部件是#strong[\<\$xxx\>]标记的名称前包含一个 \$ 符号的HTML标签#strong[\</xxx\>]
 
-- 嵌入是从另一条目 \"B\" 引用条目 \"A\"，此 \"A\" 内容出现于 \"B\"
+- 嵌入是从另一条目 "B" 引用条目 "A"，此 "A" 内容出现于 "B"
   的处理过程。
 
 - 链接是仅插入条目的超链接，或者插入其它网站的网络地址，或者本地文件的URL。
@@ -790,28 +785,25 @@ TiddlyWiki的拖动资源功能可以让你将任意的资料拖放进wiki。比
 在编辑条目的状态下，你可以通过拖动图片到太微的编辑区插入一个图片，确认插入之后，在编辑器中将会自动填入图片嵌入的表达式。例如
 \[img\[Motovun Jack.jpg\]\]。
 
-#image("./media/image20.png", width: 6.768055555555556in, height: 2.0079997812773405in)
+#image("./media/image20.png")
 
 #strong[复用已导入的图片]：你可以点击编辑栏-插入图片按钮引用已经导入到太微的图片资源。
 
 #strong[移动端导入或使用图片：]可以通过侧边栏 - 工具 -
 导入或者添加图像按钮，添加图片、JSON等文件，还可以手动绘制图形。图片可以通过曲别针（导入）按钮导入，然后再编辑栏用插入图片按钮引用。
 
-如果你觉得现在图形的大小不太合适，可以图片的引用表达式张红添加width参数并设定合适的大小，例如这样：\[img
-width\=128 \[tx.jpg\]\]
+如果你觉得现在图形的大小不太合适，可以图片的引用表达式张红添加width参数并设定合适的大小，例如这样：\[img width=128 \[tx.jpg\]\]
 
-较大的位图会显著降低 TiddlyWiki
-的性能。例如，现代智能手机拍摄的图像经常会是 5 MB
-或更多。所以尽可能的使用外部图像。
+较大的位图会显著降低 TiddlyWiki的性能。例如，现代智能手机拍摄的图像经常会是 5 MB或更多。所以尽可能的使用外部图像。
 
-在TidGi中，因为已经预制一些程序自动化处理这些任务，比如懒加载图片、\[img\[file:\/\/\<path\>\]\]（file:\/\/文件协议）等等，所以放心用。
+在TidGi中，因为已经预制一些程序自动化处理这些任务，比如懒加载图片、\[img\[file://\<path\>\]\]（file://文件协议）等等，所以放心用。
 
 TidGi默认预装Shiraz（设拉子）插件，所以你可以使用插件提供的宏实现图文混排，就像在Word里面做的那样，不过在TiddlyWiki中我们是使用语言去描述图片的显示效果。
 
 image-basic宏的使用语法如下：
 
-\<\<image-basic img width:\"\" align:\"\" caption:\"\" tooltip:\"\"
-alt:\"\"\>\>
+\<\<image-basic img width:"" align:"" caption:"" tooltip:""
+alt:""\>\>
 
 #align(center)[#table(
   columns: 3,
@@ -841,22 +833,21 @@ alt:\"\"\>\>
 
 例子：此处显示了如下所示的简单图像。你可以把宏写在段落的开头或者结尾，然后就可以看到显示效果啦。
 
-\<\<image-basic \"秋季01.jpg\" caption:\"Figure 1. This is a basic
-image.\" align:\"right\" tooltip:\" demo of image-basic
-macro\"\>\>#image("./media/image21.png", width: 1.2090277777777778in, height: 1.6125in)这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。
+\<\<image-basic "秋季01.jpg" caption:"Figure 1. This is a basic
+image." align:"right" tooltip:" demo of image-basic
+macro"\>\>#image("./media/image21.png", width: 1.2090277777777778in, height: 1.6125in)这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。这是一只火狐狸。
 
 === （4）条目的批量操作
 
-+ 筛选出含有关键字的所有条目：\[!is\[system\]search\[#emph[关键字]\]\] 
++ 筛选出含有关键字的所有条目：\[!is\[system\]search\[#emph[关键字]\]\] 
 
 + 按字段与字段值筛选出符号条件的条目：\[search:字段名\[字段值\]\]
 
 + 在太记中你可以使用kookma/commander插件对条目进行批量操作。
 
-#image("./media/image22.png", width: 6.768055555555556in, height: 4.500694444444444in)
+#image("./media/image22.png")
 
-- #strong[批量从一个太微到另一个太微转移数据]：如果你想批量的转移数据到新的太微中，也可以把旧有的太微文档直接拖进新的太微中，然后选择需要的条目导入，注意，请谨慎选项要导入的系统条目（以“
-  \$:/ ”开头的条目。）
+- #strong[批量从一个太微到另一个太微转移数据]：如果你想批量的转移数据到新的太微中，也可以把旧有的太微文档直接拖进新的太微中，然后选择需要的条目导入，注意，请谨慎选项要导入的系统条目（以“ \$:/ ”开头的条目。）
 
 - #strong[转移数据到新的TiddlyWiki。]
 
@@ -869,12 +860,12 @@ tiddlers选项卡-导出条目按钮，选择JSON文件格式保存到本地。�
 
 你可以嵌入一些在线视频。并且可以文本在线视频混排。有时候这非常有用，不是吗(\*￣︶￣)。
 
-#image("./media/image23.png", width: 3.0208333333333335in, height: 1.9041666666666666in)我们使用小破站作为例子，如图所示，在小破站的转发功能
+#image("./media/image23.png")我们使用小破站作为例子，如图所示，在小破站的转发功能
 - 点击嵌入代码，提示已经复制到剪贴板。
 
 正如下面的内联框架标签。你可直接新建一个条目，把复制好的直接粘贴到条目中，保存，就可以看到插入的在线视频了。
 
-#image("./media/image24.png", width: 3.9791666666666665in, height: 2.245833333333333in)
+#image("./media/image24.png")
 
 你可以使用iframe标签的两个属性，height和width调整插入视频的高度和宽度。单位可忽略，默认单位为pixels（像素）。
 
@@ -912,7 +903,7 @@ tiddlers选项卡-导出条目按钮，选择JSON文件格式保存到本地。�
 
 - 删除未使用的图片
 
-说明：需要安装Relink插件，支持 \[img\[\]\]、\<\$link to \=“”\>
+说明：需要安装Relink插件，支持 \[img\[\]\]、\<\$link to =“”\>
 等引用，可能引用图片的系统条目：\$:/Import 导入时
 
 = 三、如何使用TiddlyWiki构建笔记系统？
@@ -940,7 +931,7 @@ tiddlers选项卡-导出条目按钮，选择JSON文件格式保存到本地。�
 
 然后你可以选择性的为创建的条目起名字，写内容，内容可以是三言两语，也可以是一两百字的段落，写完之后，凭借你的感觉，对内容进行类别的评估，并把评估的结果——大致的类别，写到条目的标签上。建议不超过两个。最好是一个类别。
 
-#image("./media/image25.png", width: 6.768055555555556in, height: 2.1988615485564305in)
+#image("./media/image25.png")
 
 在不断流动的时间长河中，随着你不断的记录、记录、记录，条目数量会不断增加，从开始的寥寥几条，到最终的几百条。你会发现，他们有些部分是非常相似的，这种相似的部分可以大致分成几个群组。而这个群组我们可以称之为主题或者元素。
 
@@ -1001,7 +992,7 @@ tiddlers选项卡-导出条目按钮，选择JSON文件格式保存到本地。�
 
 图是一种数据结构，节点可以称为顶点。其中，一个节点可以有零个或多个相邻节点，节点之间的连线称为边。
 
-#image("./media/image26.png", width: 6.666666666666667in, height: 2.375in)
+#image("./media/image26.png")
 
 太微中的图结构
 
@@ -1014,11 +1005,11 @@ TiddlyMap - 思维导图-关系图谱
 （不适配移动端视图，视图被判断太小不能用，需要附加组件Vue.js插件，不装一定会出错。）
 
 从大到小是由 全局设置 - 视图（许多画布） - 图谱（实时节点图）
-；一个视图就是一个画布。#image("./media/image27.png", width: 6.725in, height: 4.319983595800525in)
+；一个视图就是一个画布。#image("./media/image27.png")
 
-#image("./media/image28.png", width: 6.768055555555556in, height: 4.533729221347332in)
+#image("./media/image28.png")
 
-#image("./media/image29.png", width: 6.768055555555556in, height: 3.774384295713036in)
+#image("./media/image29.png")
 
 控制按钮区域的按钮从左往右依次是：打开菜单、更改显示层级、打开Map导出按钮、改变Map中的方格背景，其中在编辑Map中最常用的的打开菜单按钮和更改显示层级按钮。
 
@@ -1069,7 +1060,7 @@ Editor（部分编辑）根据标题编辑内容。这两个插件在TOC自动�
 
 渐进写作相关链接：
 
-渐进写作：https:\/\/blog.effie.co/%e6%b8%90%e8%bf%9b%e5%bc%8f%e5%86%99%e4%bd%9c/
+渐进写作：https://blog.effie.co/%e6%b8%90%e8%bf%9b%e5%bc%8f%e5%86%99%e4%bd%9c/
 
 非线性写作的4条建议：#link("https://zhuanlan.zhihu.com/p/399187853")
 
@@ -1080,7 +1071,7 @@ Editor（部分编辑）根据标题编辑内容。这两个插件在TOC自动�
 #strong[01.关于 RR 的双链无压记录]
 
 看过
-【双向链接时代的快速无压记录：https:\/\/www.yuque.com/deerain/gannbs/ffqk2e】
+【双向链接时代的快速无压记录：https://www.yuque.com/deerain/gannbs/ffqk2e】
 的同学可能都知道，roam research 之所以能带火 \[\[双链|反向链接\]\]
 ，是因为它宣传：
 
@@ -1094,7 +1085,7 @@ Editor（部分编辑）根据标题编辑内容。这两个插件在TOC自动�
 roam
 的选择是把未整理的内容堆放到日志条目里，这在太微里做起来也不难例如我们的添加新想法按钮，点一下之后创建新条目，就能往里输入：
 
-\<\<reuse-tiddler \"快速创建新笔记按钮\"\>\>
+\<\<reuse-tiddler "快速创建新笔记按钮"\>\>
 
 例子：
 
@@ -1104,7 +1095,7 @@ roam
   \`:ui/show-empty-bullets?\` （也可以在里面加入 \`\[\[logseq/配置\]\]\`
   来产生双链，看你是标签党还是双链党，反正都可以实现同样的效果）
 
-两次操作即可保留内容，与之相比较的复杂折腾的情况，详见【双向链接时代的快速无压记录：https:\/\/www.yuque.com/deerain/gannbs/ffqk2e】。
+两次操作即可保留内容，与之相比较的复杂折腾的情况，详见【双向链接时代的快速无压记录：https://www.yuque.com/deerain/gannbs/ffqk2e】。
 
 #strong[03.太微的间隔重复放心记录]
 
@@ -1180,9 +1171,9 @@ TiddlyWiki的数据安全性措施有草稿功能自动保存功能，简单的�
 
 Git的两种可视化工具：
 
-- Source Tree ：#strong[https:\/\/www.sourcetreeapp.com/]
+- Source Tree ：#strong[https://www.sourcetreeapp.com/]
 
-- Github Desktop ：#strong[https:\/\/desktop.github.com/]
+- Github Desktop ：#strong[https://desktop.github.com/]
 
 林一二：太记应该不容易丢，可以打开git工具看看是不是真存到硬盘上了，看到类似这种就稳了。
 
@@ -1190,20 +1181,20 @@ Git的两种可视化工具：
   columns: 2,
   align: (col, row) => (auto,auto,).at(col),
   inset: 6pt,
-  [#image("./media/image30.png", width: 1.5729166666666667in, height: 1.0133038057742783in)],
-  [#image("./media/image31.png", width: 5.0411187664042in, height: 1.0506758530183726in)],
+  [#image("./media/image30.png")],
+  [#image("./media/image31.png")],
 )
 ]
 
 WhiteFall：但是一般性的太微呢，比如单文档的那种，或者使用webdav的呢？
 
-林一二：那种因为都是在 html 内写，不涉及文件系统，所以改动肯定会存到 html 内，不用担心。那 html 有没有存到文件系统上就得自己检查了。
+林一二：那种因为都是在 html 内写，不涉及文件系统，所以改动肯定会存到 html 内，不用担心。那 html 有没有存到文件系统上就得自己检查了。
 
 === Git分支是什么？
 
 分支是为了将修改记录的整体流程分叉保存。分叉后的分支不受其他分支的影响，所以在同一个数据库里可以同时进行多个修改。
 
-#image("./media/image32.png", width: 3.5061843832020996in, height: 2.1590912073490816in)
+#image("./media/image32.png")
 
 === Git 提交更改（Commit Changes）
 
@@ -1240,31 +1231,31 @@ commit即可撤销。
 在CPL搜索 inverse-link-and-folder
 （反向链接插件），安装后条目底部会出现【此文件夹中的文件】以及【子条目的标签】
 
-#image("./media/image33.png", width: 6.768055555555556in, height: 2.4650426509186354in)
+#image("./media/image33.png")
 
 == （三）TOC自动化目录插件
 
 在CPL搜索 Gk0Wk/page-toc ，点击安装，在控制面板 - 视觉外观 - 工具栏 -
 查看工具栏 勾选Page TOC。
 
-#image("./media/image34.png", width: 6.768055555555556in, height: 3.716972878390201in)
+#image("./media/image34.png")
 
-#image("./media/image35.png", width: 6.768055555555556in, height: 2.8625in)
+#image("./media/image35.png")
 
 ToC generic：在CPL搜索ToC
 generic，点击安装。插件描述：将扩展的目录添加到条目的底部。
 
-#image("./media/image36.png", width: 6.768055555555556in, height: 3.164796587926509in)
+#image("./media/image36.png")
 
 Section
 Editor插件，在标题上对大条目进行分段，直接编辑，创建，折叠和管理部分。创建拼凑的条目，将碎片编织在一起以呈现叙事故事。
 
-简单的使用方法：创建一个条目；添加字段: se-type，值可以为空；开始写你的长条目不要忘记添加一些标题
-使用 ! and !! 将 tiddler 分成几个部分。保存你的条目。
+简单的使用方法：创建一个条目；添加字段: se-type，值可以为空；开始写你的长条目不要忘记添加一些标题
+使用 ! and !! 将 tiddler 分成几个部分。保存你的条目。
 
 演示与教程主页：#link("https://kookma.github.io/TW-Section/")
 
-#image("./media/image37.png", width: 6.776616360454943in, height: 3.1957786526684164in)
+#image("./media/image37.png")
 
 安装Section Editor插件，请注意备份你的文档。。
 
@@ -1274,13 +1265,13 @@ Editor插件，在标题上对大条目进行分段，直接编辑，创建，�
 
 Trashbin插件背后的概念是有一个简单的机制将已删除的tiddlers移动到Trashbin，并能够在需要时恢复它们。
 
-#image("./media/image38.png", width: 6.768055555555556in, height: 3.9408245844269465in)
+#image("./media/image38.png")
 
 == （五）随机漫游条目与快照插件
 
 随机漫游条目插件
 
-RandomTiddlerButton：https:\/\/sonephetr2.github.io/
+RandomTiddlerButton：https://sonephetr2.github.io/
 
 random：#link("https://tobibeer.github.io/tw5-plugins/#random")
 
@@ -1288,7 +1279,7 @@ random：#link("https://tobibeer.github.io/tw5-plugins/#random")
 
 TiddlerSets快照插件，只需单击一下，即可创建并打开Tiddler集合
 
-TiddlerSets：https:\/\/tiddlersets.tiddlyhost.com/TiddlerSets
+TiddlerSets：https://tiddlersets.tiddlyhost.com/TiddlerSets
 
 == （六）与SuperMemo互动
 
@@ -1298,14 +1289,14 @@ TiddlerSets：https:\/\/tiddlersets.tiddlyhost.com/TiddlerSets
   columns: 2,
   align: (col, row) => (auto,auto,).at(col),
   inset: 6pt,
-  [#image("./media/image39.png", width: 3.214583333333333in, height: 2.319209317585302in)],
-  [#image("./media/image40.png", width: 3.214583333333333in, height: 2.3361318897637795in)],
+  [#image("./media/image39.png")],
+  [#image("./media/image40.png")],
 )
 ]
 
 你可以使用SuperMemo的导出功能导出网页文件，然后用浏览器打开，如图中所述复制整个网页文本，然后在太微中新建一个条目，粘贴到条目中，点击保存就可以完成导入啦。是不是特别简单。
 
-#image("./media/image41.png", width: 6.767969160104987in, height: 2.5903641732283464in)
+#image("./media/image41.png")
 
 导入的内容你可以按照自己的喜好，使用钓鱼系列的插件学习复习，摘录并做笔记之类的。
 
@@ -1317,9 +1308,9 @@ TiddlerSets：https:\/\/tiddlersets.tiddlyhost.com/TiddlerSets
   columns: 3,
   align: (col, row) => (auto,auto,auto,).at(col),
   inset: 6pt,
-  [#image("./media/image42.png", width: 2.089583333333333in, height: 1.4101487314085739in)],
-  [#image("./media/image43.png", width: 2.0166666666666666in, height: 1.1872801837270341in)],
-  [#image("./media/image44.png", width: 2.089583333333333in, height: 1.4898108048993877in)],
+  [#image("./media/image42.png")],
+  [#image("./media/image43.png")],
+  [#image("./media/image44.png")],
 )
 ]
 
@@ -1339,20 +1330,20 @@ TiddlerSets：https:\/\/tiddlersets.tiddlyhost.com/TiddlerSets
 
 #strong[TiddlyWiki（太微）相关资源：中文教程、插件源、论坛、桌面应用]
 
-+ #strong[太微中文教程： #link("https://tw-cn.netlify.app/")]
++ #strong[太微中文教程： #link("https://tw-cn.netlify.app/")]
 
-+ #strong[社区插件源： #link("https://tw-cpl.netlify.app/")[https:\/\/tw-cpl.netlify.app]]
++ #strong[社区插件源： #link("https://tw-cpl.netlify.app/")[https://tw-cpl.netlify.app]]
 
-+ #strong[TW唯一论坛： #link("https://talk.tiddlywiki.org/")]
++ #strong[TW唯一论坛： #link("https://talk.tiddlywiki.org/")]
 
 #block[
 #set enum(numbering: "1.", start: 4)
 + #strong[桌面版应用 TiddlyGit
-  （太记）：https:\/\/github.com/tiddly-gittly/TiddlyGit-Desktop]
+  （太记）：https://github.com/tiddly-gittly/TiddlyGit-Desktop]
 
-+ #strong[太记介绍和教程地址： #link("https://zhuanlan.zhihu.com/p/140473235")]
++ #strong[太记介绍和教程地址： #link("https://zhuanlan.zhihu.com/p/140473235")]
 
-+ #strong[太微思维导图（六大主题）：]https:\/\/www.zhixi.com/view/70759713
++ #strong[太微思维导图（六大主题）：]https://www.zhixi.com/view/70759713
 ]
 
 #strong[希望大家都能爱上TiddlyWiki！ QQ群：946052860]
@@ -1367,31 +1358,30 @@ TiddlerSets：https:\/\/tiddlersets.tiddlyhost.com/TiddlerSets
 
 请点击下载地址链接，笔者使用Edge浏览器作为演示，其它浏览器安装流程点击相应的浏览器即可看到，请按照步骤操作完成安装。
 
-#image("./media/image45.png", width: 6.768055555555556in, height: 3.8854166666666665in)
+#image("./media/image45.png")
 
 点击对应的浏览器可以看到不同浏览器的安装流程，不会英文？没关系！使用网页翻译试试？
 
-#image("./media/image46.png", width: 6.768055555555556in, height: 3.477777777777778in)
+#image("./media/image46.png")
 
-第一步，允许来自其它应用商店的扩展：设置及其它（Alt+F7）\> 扩展 \>
-管理扩展
+第一步，允许来自其它应用商店的扩展：设置及其它（Alt+F7）\> 扩展 \> 管理扩展
 
-#image("./media/image47.png", width: 6.768055555555556in, height: 5.215972222222222in)
+#image("./media/image47.png")
 
 第二步：下载并安装Timimi插件
 
-#image("./media/image48.png", width: 6.768055555555556in, height: 3.490972222222222in)
+#image("./media/image48.png")
 
 第三步、设置Timimi并允许它访问文件URl：设置及其它（Alt+F7）\> 扩展 \>
 Timimi \> 详细信息
 
-#image("./media/image49.png", width: 6.768055555555556in, height: 4.672916666666667in)
+#image("./media/image49.png")
 
 第四步：下载并安装本机伺服程序（与Timimi插件配套使用，缺一不可）
 
-#image("./media/image50.png", width: 6.768055555555556in, height: 3.4784722222222224in)
+#image("./media/image50.png")
 
-#image("./media/image51.png", width: 6.768055555555556in, height: 3.8097222222222222in)
+#image("./media/image51.png")
 
 现在，你可以在任意位置保存和备份你的TiddlyWiki文件，并且浏览器将不再会#strong[下载一份更新后的太微。]
 
@@ -1402,11 +1392,11 @@ Timimi \> 详细信息
 现在，我们将为你配置太微的中文语言。点击页面工具栏的小齿轮按钮（控制台）。在左边找到Plugins（插件）选项卡，点击Get
 more plugins（获取更多插件按钮）
 
-#image("./media/image52.png", width: 6.768055555555556in, height: 2.977777777777778in)
+#image("./media/image52.png")
 
 在弹出的窗口中，如图所示进行操作。
 
-#image("./media/image53.png", width: 6.768055555555556in, height: 3.7847222222222223in)
+#image("./media/image53.png")
 
 你真的是太棒了，让我们进行最后一步吧！
 
@@ -1414,4 +1404,4 @@ more plugins（获取更多插件按钮）
 language” 设置，下拉列表选择
 Chinese（Simplified）选项完成中文汉化设置。如图所示。
 
-#image("./media/image54.png", width: 6.768055555555556in, height: 4.603472222222222in)
+#image("./media/image54.png")
