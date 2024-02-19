@@ -235,6 +235,7 @@ Tiddlywiki-xp 主页：#link("https://keatonlao.github.io/tiddlywiki-xp/")
 tiddlyhost，只需要注册一个账号就可以使用的在线网站。
 
 Tiddlyhost主页：https://tiddlyhost.com/
+#pagebreak()
 
 = 二、开始使用知识库
 
@@ -905,6 +906,7 @@ tiddlers选项卡-导出条目按钮，选择JSON文件格式保存到本地。�
 
 说明：需要安装Relink插件，支持 \[img\[\]\]、\<\$link to =“”\>
 等引用，可能引用图片的系统条目：\$:/Import 导入时
+#pagebreak()
 
 = 三、如何使用TiddlyWiki构建笔记系统？
 
@@ -1206,6 +1208,7 @@ master按钮即可完成这两步——将更改的文件放入版本库的当�
 
 历史记录（History）中保存着每一次的Commit（提交），通过这些提交记录，你可以追踪每一次的修改，看看每次修改都做了什么。你可以通过历史记录对这些提交进行还原（revert）、回退（reset）、合并、彻底全部清除等等操作。在GithubDesktop中，撤销（Undo）提交即仅仅在本地提交了但没有推送到Github，这时可以在History中右单击刚提交的Commit，选Undo
 commit即可撤销。
+#pagebreak()
 
 = 四、为知识库拓展新的功能与特性
 
@@ -1299,6 +1302,7 @@ TiddlerSets：https://tiddlersets.tiddlyhost.com/TiddlerSets
 #image("./media/image41.png")
 
 导入的内容你可以按照自己的喜好，使用钓鱼系列的插件学习复习，摘录并做笔记之类的。
+#pagebreak()
 
 = 五、帮助与更多
 
